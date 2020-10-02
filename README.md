@@ -2,11 +2,11 @@
 
 This repository contains some files needed for the labs of TraiSignAp lecture.
 
-## cWave.py 
+## cWave.py 
 
 Small library to read/write wav files through the `cWave` class.
 
-### How to create a wav file
+### How to create a wav file
 
 ```Python
 from sys import path
@@ -26,7 +26,7 @@ print(x.shape)
 w.writeWaveFile( 'sound.wav', Fs,frame.astype('int16'))
 ``` 
 
-### How to read a wave file
+### How to read a wave file
 
 ```Python
 
